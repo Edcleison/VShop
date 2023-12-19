@@ -52,7 +52,7 @@ namespace VShop.ProductApi.Controllers
             }
 
             await _productService.AddProduct(productDto);
-            return new CreatedAtRouteResult("GetProduct", new { id = productDto.CategoryId }, productDto);
+            return new CreatedAtRouteResult("GetProduct", new { id = productDto.Id }, productDto);
         }
         [HttpPut("{id:int}")]
 

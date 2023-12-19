@@ -26,6 +26,7 @@ C:\Curso\Curso Web API\VShop\VShop.ProductApi\obj\Debug\net6.0\VShop.ProductApi.
 C:\Curso\Curso Web API\VShop\VShop.ProductApi\obj\Debug\net6.0\VShop.ProductApi.csproj.CoreCompileInputs.cache
 C:\Curso\Curso Web API\VShop\VShop.ProductApi\obj\Debug\net6.0\VShop.ProductApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Curso\Curso Web API\VShop\VShop.ProductApi\obj\Debug\net6.0\VShop.ProductApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Curso\Curso Web API\VShop\VShop.ProductApi\obj\Debug\net6.0\VShop.ProductApi.sourcelink.json
 C:\Curso\Curso Web API\VShop\VShop.ProductApi\obj\Debug\net6.0\staticwebassets.build.json
 C:\Curso\Curso Web API\VShop\VShop.ProductApi\obj\Debug\net6.0\staticwebassets.development.json
 C:\Curso\Curso Web API\VShop\VShop.ProductApi\obj\Debug\net6.0\staticwebassets\msbuild.VShop.ProductApi.Microsoft.AspNetCore.StaticWebAssets.props
