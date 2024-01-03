@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using VShop.Web.Models;
+using VShop.Web.Roles;
 using VShop.Web.Services.Contracts;
 
 namespace VShop.Web.Controllers
@@ -34,7 +36,9 @@ namespace VShop.Web.Controllers
 
             return View();
         }
+       
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> CreateProduct(ProductViewModel productViewModel)
         {
             if (ModelState.IsValid)
@@ -46,10 +50,54 @@ namespace VShop.Web.Controllers
                 }
                 else
                 {
-                    ViewBag.CartegoryId = new SelectList(await _categoryService.GetAllCategories(),"CategoryId","Name");
+                    ViewBag.CartegoryId = new SelectList(await _categoryService.GetAllCategories(), "CategoryId", "Name");
                 }
             }
             return View(productViewModel);
         }
+        [HttpGet]
+        public async Task<IActionResult> UpdateProduct(int id)
+        {
+            ViewBag.CategoryId = new SelectList(await _categoryService.GetAllCategories(), "CategoryId", "Name");
+
+            var result = await _productService.FindProductById(id);
+
+            if (result == null) { return View("Error"); }
+
+            return View(result);
+        }
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> UpdateProduct(ProductViewModel productViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _productService.UpdateProduct(productViewModel);
+                if (result != null)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+            }
+            return View(productViewModel);
+        }
+        [HttpGet]
+        [Authorize]
+        public async Task<ActionResult<ProductViewModel>> DeleteProduct(int id)
+        {
+            var result = await _productService.FindProductById(id);
+            if (result is null)
+                return View("Error");
+            return View(result);
+        }
+        [HttpPost(),ActionName("DeleteProduct")]
+        [Authorize(Roles = Role.Admin)]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var result = await _productService.DeleteProductById(id);
+            if (!result)
+                return View("Error");
+            return RedirectToAction("Index");
+        }
     }
 }
+

@@ -1,12 +1,15 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VShop.ProductApi.DTOs;
+using VShop.ProductApi.Roles;
 using VShop.ProductApi.Services;
 
 namespace VShop.ProductApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;
@@ -54,25 +57,21 @@ namespace VShop.ProductApi.Controllers
             await _productService.AddProduct(productDto);
             return new CreatedAtRouteResult("GetProduct", new { id = productDto.Id }, productDto);
         }
-        [HttpPut("{id:int}")]
+        [HttpPut()]
 
-        public async Task<ActionResult> Put(int id, [FromBody] ProductDTO productDto)
+        public async Task<ActionResult> Put([FromBody] ProductDTO productDto)
         {
 
-            if (id != productDto.Id)
-            {
-                return BadRequest();
-            }
             if (productDto is null)
-                return BadRequest();
+                return BadRequest("Data invalid");
 
 
             await _productService.UpdateProduct(productDto);
             return Ok(productDto);
         }
-        [HttpDelete("{id:int}")]
-
-        public async Task<ActionResult> Delete(int id)
+        [HttpDelete("{id}")]
+        [Authorize (Roles = Role.Admin)]
+        public async Task<ActionResult<ProductDTO>> Delete(int id)
         {
             var productDto = await _productService.GetProductById(id);
 

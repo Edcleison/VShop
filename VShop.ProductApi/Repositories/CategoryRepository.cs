@@ -44,6 +44,7 @@ namespace VShop.ProductApi.Repositories
         {
            var category = await GetById(id);
             _context.Categories.Remove(category);
+            await _context.SaveChangesAsync();
             return category;
         }
     }

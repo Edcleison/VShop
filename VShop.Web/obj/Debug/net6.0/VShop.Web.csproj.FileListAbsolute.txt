@@ -6,6 +6,16 @@ C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\VShop.Web.deps.json
 C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\VShop.Web.runtimeconfig.json
 C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\VShop.Web.dll
 C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\VShop.Web.pdb
+C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Curso\Curso Web API\VShop\VShop.Web\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Curso\Curso Web API\VShop\VShop.Web\obj\Debug\net6.0\VShop.Web.csproj.AssemblyReference.cache
 C:\Curso\Curso Web API\VShop\VShop.Web\obj\Debug\net6.0\VShop.Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Curso\Curso Web API\VShop\VShop.Web\obj\Debug\net6.0\VShop.Web.AssemblyInfoInputs.cache
 C:\Curso\Curso Web API\VShop\VShop.Web\obj\Debug\net6.0\VShop.Web.AssemblyInfo.cs
@@ -24,6 +34,7 @@ C:\Curso\Curso Web API\VShop\VShop.Web\obj\Debug\net6.0\staticwebassets.pack.jso
 C:\Curso\Curso Web API\VShop\VShop.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Curso\Curso Web API\VShop\VShop.Web\obj\Debug\net6.0\scopedcss\bundle\VShop.Web.styles.css
 C:\Curso\Curso Web API\VShop\VShop.Web\obj\Debug\net6.0\scopedcss\projectbundle\VShop.Web.bundle.scp.css
+C:\Curso\Curso Web API\VShop\VShop.Web\obj\Debug\net6.0\VShop.Web.csproj.CopyComplete
 C:\Curso\Curso Web API\VShop\VShop.Web\obj\Debug\net6.0\VShop.Web.dll
 C:\Curso\Curso Web API\VShop\VShop.Web\obj\Debug\net6.0\refint\VShop.Web.dll
 C:\Curso\Curso Web API\VShop\VShop.Web\obj\Debug\net6.0\VShop.Web.pdb

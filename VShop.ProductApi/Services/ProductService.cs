@@ -38,8 +38,8 @@ namespace VShop.ProductApi.Services
         }
         public async Task RemoveProduct(int id)
         {
-            var productEntity = _productRepository.GetById(id).Result;
-            await _productRepository.Delete(productEntity.CategoryId);
+            var productEntity = await _productRepository.GetById(id);
+            await _productRepository.Delete(productEntity.Id);
         }
     }
 }

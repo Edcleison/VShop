@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 using VShop.ProductApi.Models;
 
@@ -22,6 +23,8 @@ namespace VShop.ProductApi.DTOs
         [Required(ErrorMessage ="The Stock is Required")]
         [Range(1, 9999)]
         public long Stock { get; set; }
+        [MaxLength(250)]
+        [DisplayName("Product Image")]
         public string? ImageURL { get; set; }
         public string? CategoryName { get; set; }
         [JsonIgnore]
