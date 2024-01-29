@@ -18,8 +18,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Curso\Curso Web API\VShop\VShop.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Curso/Curso Web API/VShop/VShop.Web/Views/Cart/CartNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0Tm90Rm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Curso/Curso Web API/VShop/VShop.Web/Views/Cart/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Curso/Curso Web API/VShop/VShop.Web/Views/Cart/CheckoutCompleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDaGVja291dENvbXBsZXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Curso/Curso Web API/VShop/VShop.Web/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Curso/Curso Web API/VShop/VShop.Web/Views/Cart/RemoveItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxSZW1vdmVJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Curso/Curso Web API/VShop/VShop.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Curso/Curso Web API/VShop/VShop.Web/Views/Home/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Curso/Curso Web API/VShop/VShop.Web/Views/Products/CreateProduct.cshtml]

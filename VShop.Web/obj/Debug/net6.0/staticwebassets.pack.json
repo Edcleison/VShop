@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\VShop.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\css\\product.css",
+      "PackagePath": "staticwebassets\\css\\product.css"
+    },
+    {
       "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -15,6 +19,122 @@
     {
       "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\VShop.jpg",
       "PackagePath": "staticwebassets\\images\\VShop.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\borracha1.jpg",
+      "PackagePath": "staticwebassets\\images\\borracha1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\caderno1.jpg",
+      "PackagePath": "staticwebassets\\images\\caderno1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\calculadora1.jpg",
+      "PackagePath": "staticwebassets\\images\\calculadora1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\cartilha1.jpg",
+      "PackagePath": "staticwebassets\\images\\cartilha1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\catalog.png",
+      "PackagePath": "staticwebassets\\images\\catalog.png"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\catalogo1.png",
+      "PackagePath": "staticwebassets\\images\\catalogo1.png"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\checkout3.jpg",
+      "PackagePath": "staticwebassets\\images\\checkout3.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\clips1.jpg",
+      "PackagePath": "staticwebassets\\images\\clips1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\191082.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\191082.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\borracha_branca1.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\borracha_branca1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\borracha_cinza1.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\borracha_cinza1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\caderno_anotacoes1.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\caderno_anotacoes1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\caderno_espiral_100.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\caderno_espiral_100.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\caneta_bic4.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\caneta_bic4.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\caneta_bic_celeb1.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\caneta_bic_celeb1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\caneta_corretiva1.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\caneta_corretiva1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\caneta_escreve_apaga1.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\caneta_escreve_apaga1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\caneta_hidrografica1.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\caneta_hidrografica1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\colabranca1.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\colabranca1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\corretivo_emfita1.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\corretivo_emfita1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\fichario_univ1.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\fichario_univ1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\lapis_coloridos1.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\lapis_coloridos1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\papel_sulfite.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\papel_sulfite.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\escolar\\papel_sulfite2.jpg",
+      "PackagePath": "staticwebassets\\images\\escolar\\papel_sulfite2.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\estojo1.jpg",
+      "PackagePath": "staticwebassets\\images\\estojo1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\lapis1.jpg",
+      "PackagePath": "staticwebassets\\images\\lapis1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\noimage1.png",
+      "PackagePath": "staticwebassets\\images\\noimage1.png"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\vshop1.jpg",
+      "PackagePath": "staticwebassets\\images\\vshop1.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\images\\vshop2.jpg",
+      "PackagePath": "staticwebassets\\images\\vshop2.jpg"
     },
     {
       "Id": "C:\\Curso\\Curso Web API\\VShop\\VShop.Web\\wwwroot\\js\\site.js",

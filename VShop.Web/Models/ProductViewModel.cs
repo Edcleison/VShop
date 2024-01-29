@@ -12,10 +12,13 @@ public class ProductViewModel
     [Required]
     public string? Description { get; set; }
     [Required]
+    [Range(1,9999)]
     public long Stock { get; set; }
     [Required]
     public string? ImageURL { get; set; }
+    [Display(Name = "Categorias")]
     public string? CategoryName { get; set; }
-    [Display(Name="Categorias")]
+    [Range(1,100)]
+    public int Quantity { get; set; } = 1;
     public int CategoryId { get; set; }
 }

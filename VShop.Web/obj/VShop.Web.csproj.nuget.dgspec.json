@@ -45,15 +45,15 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.1.2, )"
             },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[6.0.25, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.19.0, )"
+              "version": "[6.33.0, )"
             }
           },
           "imports": [

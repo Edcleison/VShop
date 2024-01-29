@@ -98,7 +98,7 @@ namespace VShop.IdentityServer.SeedDatabase
                 if (resultClient.Succeeded)
                 {
                     //inclui o usuário Client ao perfil Client
-                    _userManager.AddToRoleAsync(client, IdentityConfiguration.Admin).Wait();
+                    _userManager.AddToRoleAsync(client, IdentityConfiguration.Client).Wait();
 
                     //inclui as claims do usuario admin
                     var clientClaims = _userManager.AddClaimsAsync(client, new Claim[]

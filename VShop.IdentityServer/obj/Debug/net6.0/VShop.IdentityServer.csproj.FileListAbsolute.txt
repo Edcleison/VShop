@@ -1,5 +1,6 @@
 C:\Curso\Curso Web API\VShop\VShop.IdentityServer\bin\Debug\net6.0\appsettings.Development.json
 C:\Curso\Curso Web API\VShop\VShop.IdentityServer\bin\Debug\net6.0\appsettings.json
+C:\Curso\Curso Web API\VShop\VShop.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-E60BBA85601760E5200DEA8EFBEEFD4D.json
 C:\Curso\Curso Web API\VShop\VShop.IdentityServer\bin\Debug\net6.0\VShop.IdentityServer.staticwebassets.runtime.json
 C:\Curso\Curso Web API\VShop\VShop.IdentityServer\bin\Debug\net6.0\VShop.IdentityServer.exe
 C:\Curso\Curso Web API\VShop\VShop.IdentityServer\bin\Debug\net6.0\VShop.IdentityServer.deps.json

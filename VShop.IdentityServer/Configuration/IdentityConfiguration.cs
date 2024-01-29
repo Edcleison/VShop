@@ -9,7 +9,7 @@ public class IdentityConfiguration
     public const string Admin = "Admin";
     public const string Client = "Client";
 
-    public static IEnumerable<IdentityResource> IdendityResources =>
+    public static IEnumerable<IdentityResource> IdentityResources =>
         new List<IdentityResource>
     {
 
@@ -42,7 +42,7 @@ public class IdentityConfiguration
             ClientId = "vshop",
             ClientSecrets = {new Secret("abracadabra#simsalabim".Sha256())},
             AllowedGrantTypes= GrantTypes.Code, //via codigo
-            RedirectUris = { "https://localhost:7224/signin-iodc" }, //login
+            RedirectUris = {"https://localhost:7224/signin-oidc" }, //login
             PostLogoutRedirectUris = { "https://localhost:7224/signout-callback-oidc"},//
             AllowedScopes = new List<string>
             {

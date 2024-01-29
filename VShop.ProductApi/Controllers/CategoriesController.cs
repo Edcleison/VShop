@@ -86,7 +86,6 @@ namespace VShop.ProductApi.Controllers
             return Ok(categoryDto);
         }
         [HttpDelete("{id:int}")]
-        [Authorize (Roles = Role.Admin)]
         public async Task<ActionResult> Delete(int id)
         {
             var categoryDto = await _categoryService.GetCategoryById(id);
